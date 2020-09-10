@@ -1,0 +1,62 @@
+.Exercise {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+.Exercise button,
+.Exercise p {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.Exercise button {
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  width: auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.Modal-root {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal-shade {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+}
+
+.Modal-container {
+  position: absolute;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-height: 33.33vh;
+  width: 66.66vw;
+}
+
+.Modal-content {
+  padding: 4rem;
+  font-family: system-ui;
+  text-align: justify;
+}
